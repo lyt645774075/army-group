@@ -1,0 +1,17 @@
+{
+  "/p__Organization.css": "/p__Organization.chunk.css",
+  "/p__Organization.js": "/p__Organization.async.js",
+  "/umi.css": "/umi.css",
+  "/umi.js": "/umi.js",
+  "/vendors.css": "/vendors.chunk.css",
+  "/vendors.js": "/vendors.async.js",
+  "/favicon.png": "/favicon.png",
+  "/icons/icon-128x128.png": "/icons/icon-128x128.png",
+  "/icons/icon-192x192.png": "/icons/icon-192x192.png",
+  "/icons/icon-512x512.png": "/icons/icon-512x512.png",
+  "/index.html": "/index.html",
+  "/manifest.json": "/manifest.json",
+  "/precache-manifest.a6bbbc0a828e5abc434d4daefdfad45f.js": "/precache-manifest.a6bbbc0a828e5abc434d4daefdfad45f.js",
+  "/pwacompat.min.js": "/pwacompat.min.js",
+  "/service-worker.js": "/service-worker.js"
+}

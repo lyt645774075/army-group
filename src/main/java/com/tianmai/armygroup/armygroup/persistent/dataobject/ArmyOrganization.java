@@ -36,6 +36,25 @@ public class ArmyOrganization {
     /** 团长 */
     private String leader;
 
+    private String description;
+
+    /**
+     * Getter method for property <tt>description</tt>.
+     *
+     * @return property value of description
+     */
+    public String getDescription() {
+        return description;
+    }
+
+    /**
+     * Setter method for property <tt>description</tt>.
+     *
+     * @param description value to be assigned to property description
+     */
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     /**
      * Getter method for property <tt>id</tt>.

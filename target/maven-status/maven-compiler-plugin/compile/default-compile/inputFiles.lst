@@ -1,0 +1,17 @@
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/persistent/dataobject/ArmyGroup.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/persistent/repository/ArmyGroupRepository.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/persistent/dataobject/ArmyMember.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/persistent/dataobject/ArmyOrganization.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/biz/impl/OrganizationManagerImpl.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/biz/OrganizationManager.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/controller/ImageUploadController.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/controller/BaseController.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/persistent/repository/ArmyOrganizationRepository.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/persistent/repository/MemberScoreDetailRepository.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/support/JsonResult.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/support/ScoreDetailData.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/ArmyGroupApplication.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/persistent/repository/ArmyMemberRepository.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/persistent/dataobject/MemberScoreDetail.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/config/CorsConfig.java
+/Users/yangtao.lyt/workspace/git/army-group/src/main/java/com/tianmai/armygroup/armygroup/controller/ArmyController.java

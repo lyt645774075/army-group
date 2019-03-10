@@ -29,20 +29,26 @@ public class ArmyMember {
     private String code;
 
     @Column(nullable = false)
-    /** 军团名称 */
-    private String name;
+    /** 游戏名称 */
+    private String gameName;
+
+    /** 游戏昵称 */
+    private String nickName;
 
     /** 所属集团 */
     private String organizationCode;
 
-    /** 所属集团 */
+    /** 所属军团 */
     private String groupCode;
 
+    /** 所属军团 */
+    private String groupName;
+
     /** 总分 */
-    private Integer totalScore;
+    private Float totalScore;
 
     /** 未使用分 */
-    private Integer unusedScore;
+    private Float unusedScore;
 
     /**
      * Getter method for property <tt>id</tt>.
@@ -117,21 +123,57 @@ public class ArmyMember {
     }
 
     /**
-     * Getter method for property <tt>name</tt>.
+     * Getter method for property <tt>gameName</tt>.
      *
-     * @return property value of name
+     * @return property value of gameName
      */
-    public String getName() {
-        return name;
+    public String getGameName() {
+        return gameName;
     }
 
     /**
-     * Setter method for property <tt>name</tt>.
+     * Setter method for property <tt>gameName</tt>.
      *
-     * @param name value to be assigned to property name
+     * @param gameName value to be assigned to property gameName
      */
-    public void setName(String name) {
-        this.name = name;
+    public void setGameName(String gameName) {
+        this.gameName = gameName;
+    }
+
+    /**
+     * Getter method for property <tt>nickName</tt>.
+     *
+     * @return property value of nickName
+     */
+    public String getNickName() {
+        return nickName;
+    }
+
+    /**
+     * Setter method for property <tt>nickName</tt>.
+     *
+     * @param nickName value to be assigned to property nickName
+     */
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
+    }
+
+    /**
+     * Getter method for property <tt>groupName</tt>.
+     *
+     * @return property value of groupName
+     */
+    public String getGroupName() {
+        return groupName;
+    }
+
+    /**
+     * Setter method for property <tt>groupName</tt>.
+     *
+     * @param groupName value to be assigned to property groupName
+     */
+    public void setGroupName(String groupName) {
+        this.groupName = groupName;
     }
 
     /**
@@ -175,7 +217,7 @@ public class ArmyMember {
      *
      * @return property value of totalScore
      */
-    public Integer getTotalScore() {
+    public Float getTotalScore() {
         return totalScore;
     }
 
@@ -184,7 +226,7 @@ public class ArmyMember {
      *
      * @param totalScore value to be assigned to property totalScore
      */
-    public void setTotalScore(Integer totalScore) {
+    public void setTotalScore(Float totalScore) {
         this.totalScore = totalScore;
     }
 
@@ -193,7 +235,7 @@ public class ArmyMember {
      *
      * @return property value of unusedScore
      */
-    public Integer getUnusedScore() {
+    public Float getUnusedScore() {
         return unusedScore;
     }
 
@@ -202,7 +244,7 @@ public class ArmyMember {
      *
      * @param unusedScore value to be assigned to property unusedScore
      */
-    public void setUnusedScore(Integer unusedScore) {
+    public void setUnusedScore(Float unusedScore) {
         this.unusedScore = unusedScore;
     }
 }

@@ -12,4 +12,12 @@ import org.springframework.data.repository.CrudRepository;
  * @version $Id: ArmyOrganizationRepository.java, v 0.1 2019年03月02日 02:15 yangtao.lyt Exp $
  */
 public interface ArmyOrganizationRepository extends CrudRepository<ArmyOrganization, String>{
+
+
+    /**
+     * 查询一个军团
+     * @param code
+     * @return
+     */
+    ArmyOrganization findByCode(String code);
 }
