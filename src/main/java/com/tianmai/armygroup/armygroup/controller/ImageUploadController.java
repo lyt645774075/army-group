@@ -36,9 +36,9 @@ public class ImageUploadController {
     /** 图片地址前缀 */
     private final static String IMAGE_URL_PRE = "http://freturn.oss-cn-hangzhou.aliyuncs.com/img/";
 
-    private static String endpoint = "http://oss-cn-hangzhou.aliyuncs.com";
-    private static String accessKeyId = "LTAIeju9FA2FO5vq";
-    private static String accessKeySecret = "D15W5MuItE1t6P2JidfmiseMkPXFyA";
+    private static String endpoint = "";
+    private static String accessKeyId = "";
+    private static String accessKeySecret = "";
 
     private static OSSClient ossClient;
 
